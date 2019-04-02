@@ -107,6 +107,12 @@ func Decode(r io.Reader, d Decodable) error {
 	return err
 }
 
+//DecodeContinuously decodes d from r Reader with ability to continue read from same reader
+func DecodeContinuously(r *Reader, d Decodable) error {
+    err := d.DecodeMsg(r)
+    return err
+}
+
 // NewReader returns a *Reader that
 // reads from the provided reader. The
 // reader will be buffered.
