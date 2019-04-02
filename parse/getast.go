@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tinylib/msgp/gen"
+	"github.com/jnovikov/msgp/gen"
 	"github.com/ttacon/chalk"
 )
 

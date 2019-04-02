@@ -6,3 +6,4 @@ msgp/defgen_test.go
 msgp/cover.out
 *~
 *.coverprofile
+.idea
